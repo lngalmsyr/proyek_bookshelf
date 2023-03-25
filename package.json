@@ -1,10 +1,11 @@
 {
   "name": "proyek-bookshelf",
   "version": "1.0.0",
-  "description": "",
+  "description": "submission kelas back-end pemula dicoding",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon ./src/server.js",
+    "start:dev": "nodemon ./src/server.js",
+    "start:prod": "node ./src/server.js",
     "lint": "eslint ./src"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^21.3.0",
+    "dotenv": "^16.0.3",
     "nanoid": "^3.3.4",
     "nodemon": "^2.0.22"
   },
