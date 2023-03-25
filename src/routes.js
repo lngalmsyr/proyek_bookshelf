@@ -21,12 +21,14 @@ const routes = [
         path = '/books/{bookId}',
         handler: (editBookByIdHandler),
     },
-    (
+    {
         method = 'DELETE',
         path = '/books/{bookId}',
         handler: (deleteBookByIdHandler),
 
-    ),
+    },
+
+
 
 ];
 
